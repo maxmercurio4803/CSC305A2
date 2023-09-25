@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "string"
+        },
+        "bio": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "location": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["age", "bio", "image", "location", "name"]
+    },
+    "properties": {
+      "eC7CnHVe8RZllBKYt4JnpK6eiDz2": {
+        "$ref": "#/additionalProperties"
+      },
+      "highScore": {
+        "type": "integer"
+      },
+      "wvAWMpGc7ob1N4hKuI0WV9AIbe52": {
+        "$ref": "#/additionalProperties"
+      }
+    },
+    "required": ["highScore"]
+  }

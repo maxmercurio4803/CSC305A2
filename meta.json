@@ -4,7 +4,23 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "AdMob Interstitial",
+                            "translatedName": "AdMob Interstitial",
+                            "isApi": true,
+                            "reactType": "AdMobInterstitial",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-6072858456841032~5774125377",
+                                "AdUnitID_iOS": "ca-app-pub-3940256099942544/1033173712",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "5c5eb76d-e82a-4338-bfea-6f79ba828135",
+                            "thunkableVersion": 423,
+                            "name": "AdMob_Interstitial1"
+                        }
+                    ]
                 }
             },
             "assets": {
@@ -21,8 +37,8 @@
                     "createdAt": "2023-09-25T16:56:27.158Z",
                     "updatedAt": "2023-09-25T16:56:27.158Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9e5527a354d3826aa5fa6/projects/650c699124e85d2654f49f70/assets/6511bbba6dfeb96ad9208761?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230925%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230925T165627Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=00fc03fe8ed634909801b11737ca86bf0a97e45b99db92d6d3f2d43676bbed22317338228acb21f3c01eef4a249f07ece107c2331693ea823162adcf7118dc187faf374494d478a0a3d2c7922dedc4239490ba318377e1c73993705d0d143ac24eb1f3529d646fd3d28739ac5ebe6ff4b478ff5710a0dfaa01bb14b07cd727d8c7af915fde56440af2cedba59c61a63b70c56424a048e681aa3689abcee7024fa05dd156398a2d278dc0e1b3203141c7e8394c1674ec78b013422f49bb30867b93dfd0cdd2f28ec63e5c02f958068aa476f09f74b2efd92638a6f5d06e0c624907824c831a0ed229a0a3ecaeb9ba78b723895b954e05f3b0661f3bb08790dbb7",
-                    "signedUrlExpirationTime": 1695833787189
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9e5527a354d3826aa5fa6/projects/650c699124e85d2654f49f70/assets/6511bbba6dfeb96ad9208761?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231005%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231005T151006Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=33ef27fabf558f802fa47d451f28209763e162907c78077753c7c7db074e28ab45396bd40adcd5167ca1096e42e02d9876951fbaf494f0383d5132b1b0ef901ae48b9bd10811d5570e44408bf97f192c4bef103b366020c2abbbd9a9aef19465da6fdcd84a2739af0fc52f4bec1e2456397cb7b5b319650a709fb9c06c8a14edef7a9c48daa80f2fe353d8dcbf3889d7457d909ee2e183e4f00c2c3c48ad63b6b6737d0461de2f2c5f00b5fbb55f054149e736b9ae9dad5cbf158cb3ef181dd76ad3fad61f192b3ca7abbb7ead1c1dc197e69557db0ef7182591a59e6f8d31820052bc193f74062ce7bbdd075def9d533d870e85a469bd28a19d6e7de2f75a2c",
+                    "signedUrlExpirationTime": 1696691406315
                 }
             },
             "backendUpgradeVersion": 21,
@@ -107,7 +123,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Max's App",
+            "projectName": "Max's App Original",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -206,7 +222,7 @@
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
@@ -215,7 +231,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "3",
             "totalStar": "0",
             "starAction": "star",
             "variables": {

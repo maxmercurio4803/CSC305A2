@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "6729f6fe-0d0b-4c5e-b177-b9c17269e80f",
+                "Y": 538.03125,
+                "RelativeX": 0,
+                "RelativeY": 538,
+                "position": "absolute",
+                "edgeOffsets": 538.03125,
+                "style": {
+                    "position": "absolute",
+                    "left": "3.8666666666666667%",
+                    "top": "71.2190779610195%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "3f348d80-5991-45fe-909c-5c2c968b0013",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Group",
             "label": "Group",
             "translatedName": "Group",
@@ -1598,10 +1628,10 @@
                 "Height": 35,
                 "Width": 134,
                 "Visible": true,
-                "X": 4,
-                "Y": 509,
-                "RelativeX": 4,
-                "RelativeY": 509,
+                "X": 0,
+                "Y": 423,
+                "RelativeX": 0,
+                "RelativeY": 423,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -1632,7 +1662,7 @@
                 "Disabled": false,
                 "ParentId": "6729f6fe-0d0b-4c5e-b177-b9c17269e80f",
                 "position": "absolute",
-                "edgeOffsets": 509
+                "edgeOffsets": 423.99999999999994
             },
             "children": [],
             "id": "f56bb758-66ad-48ee-a3a3-a138e9065cfe",
